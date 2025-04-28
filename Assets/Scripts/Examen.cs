@@ -27,6 +27,15 @@ public class Examen : MonoBehaviour
             return;
         }
 
+        if (distancia >= 1 && distancia < 50)
+        {
+            distancia = 50;
+        }
+        else if (distancia > 50)
+        {
+            excede = true;
+        }
+
         if (cantidad < 2001)
         {
             vehiculo = "Utilitario";
@@ -41,13 +50,7 @@ public class Examen : MonoBehaviour
             precioHora = 7000;
         }
 
-        if (distancia < 50)
-        {
-            distancia = 50;
-        } else if (distancia > 50)
-        {
-            excede = true;
-        }
+        
 
         if (vehiculo == "Utilitario")
         {

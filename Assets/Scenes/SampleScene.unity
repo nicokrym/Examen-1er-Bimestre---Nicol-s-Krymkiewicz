@@ -223,7 +223,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d156e55279a09aa4d92d9991aaf7e1df, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cantidad: 10111
+  cantidad: 9999
   distancia: 1
 --- !u!4 &582425468
 Transform:
